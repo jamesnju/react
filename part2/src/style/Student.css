@@ -1,0 +1,55 @@
+.header {
+background-color: lightgray;
+padding: 10px;
+text-align: center;
+align-items: center;
+display: flex;
+margin: 10px;
+flex-direction: column;
+border: 5px solid white;
+border-radius: 10px;
+justify-content: space-between;
+overflow: auto;
+}
+.names{
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-text {
+font-size: 20px;
+font-weight: bold;
+border-radius: 100px;
+}
+.student-table {
+width: 50%;
+border-collapse: collapse;
+margin: 10px;
+text-align: center;
+}
+.student-table th,
+.student-table td {
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+.student-table th {
+background-color: lightgray;
+}
+
+button{
+    border: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+  

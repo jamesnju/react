@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(79deg, blue, #f30c0c, green);
+  }
+  /*LOG IN AND REGISTER FORM CSS*/
+  .home{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  @media screen and (min-width 600px){
+  
+  }.home{
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+  }
+  label{
+      text-align: left;
+      padding: 0.25rem 0;
+  }
+  input{
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 10px;
+  }
+  button{
+      border: none;
+      background-color: yellow;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .link-btw{
+      background: none;
+      color: white;
+      text-decoration: underline;
+  }
+  :hover.link-btw {
+      color: #f30c0c;
+  }
+  /*END OF CSS**/
